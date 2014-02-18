@@ -1,0 +1,273 @@
+<!-- begin PAGE TITLE ROW -->
+<div class="row">
+    <div class="col-lg-12">
+        <div class="page-title">
+            <h1>
+                Mailbox
+                <small>Message Center</small>
+            </h1>
+            <ol class="breadcrumb">
+                <li><i class="fa fa-dashboard"></i>  <a href="index.html">Dashboard</a>
+                </li>
+                <li class="active">Mailbox</li>
+            </ol>
+        </div>
+    </div>
+    <!-- /.col-lg-12 -->
+</div>
+<!-- /.row -->
+<!-- end PAGE TITLE ROW -->
+
+<div class="row">
+    <div class="col-lg-12">
+        <div class="portlet portlet-default">
+            <div class="portlet-body">
+
+                <nav class="navbar mailbox-topnav" role="navigation">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="mailbox.html"><i class="fa fa-inbox"></i> Inbox</a>
+                    </div>
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="mailbox-nav">
+                        <ul class="nav navbar-nav button-tooltips">
+                            <li class="checkall">
+                                <input type="checkbox" id="selectall" data-toggle="tooltip" data-placement="bottom" title="Select All">
+                            </li>
+                            <li class="message-actions">
+                                <div class="btn-group navbar-btn">
+                                    <button type="button" class="btn btn-white" data-toggle="tooltip" data-placement="bottom" title="Archive"><i class="fa fa-archive"></i>
+                                    </button>
+                                    <button type="button" class="btn btn-white" data-toggle="tooltip" data-placement="bottom" title="Mark as Important"><i class="fa fa-exclamation-circle"></i>
+                                    </button>
+                                    <button type="button" class="btn btn-white" data-toggle="tooltip" data-placement="bottom" title="Trash"><i class="fa fa-trash-o"></i>
+                                    </button>
+                                </div>
+                            </li>
+                            <li class="dropdown message-label">
+                                <button type="button" class="btn btn-white navbar-btn dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tag"></i>  <i class="fa fa-caret-down text-muted"></i>
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#"><i class="fa fa-square text-green"></i> Purchase Orders</a>
+                                    </li>
+                                    <li><a href="#"><i class="fa fa-square text-orange"></i> Current Projects</a>
+                                    </li>
+                                    <li><a href="#"><i class="fa fa-square text-purple"></i> Work Groups</a>
+                                    </li>
+                                    <li><a href="#"><i class="fa fa-square text-blue"></i> Personal</a>
+                                    </li>
+                                    <li><a href="#"><i class="fa fa-square-o"></i> None</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <form class="navbar-form navbar-right visible-lg" role="search">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Search Mail...">
+                            </div>
+                            <button type="submit" class="btn btn-default"><i class="fa fa-search"></i>
+                            </button>
+                        </form>
+                    </div>
+                </nav>
+
+                <div id="mailbox">
+
+                    <ul class="nav nav-pills nav-stacked mailbox-sidenav">
+                        <li><a class="btn btn-white" href="#/compose-message"><i class="fa fa-edit"></i> Compose Message</a>
+                        </li>
+                        <li class="nav-divider"></li>
+                        <li class="mailbox-menu-title text-muted">Folder</li>
+                        <li class="active"><a href="#">Inbox (15)</a>
+                        </li>
+                        <li><a href="#">Sent</a>
+                        </li>
+                        <li><a href="#">Drafts</a>
+                        </li>
+                        <li><a href="#">Spam</a>
+                        </li>
+                        <li><a href="#">Trash</a>
+                        </li>
+                        <li class="nav-divider"></li>
+                        <li class="mailbox-menu-title text-muted">Labels</li>
+                        <li><a href="#"><i class="fa fa-square text-green"></i> Purchase Orders</a>
+                        </li>
+                        <li><a href="#"><i class="fa fa-square text-orange"></i> Current Projects</a>
+                        </li>
+                        <li><a href="#"><i class="fa fa-square text-purple"></i> Work Groups</a>
+                        </li>
+                        <li><a href="#"><i class="fa fa-square text-blue"></i> Personal</a>
+                        </li>
+                        <li><a href="#"><i class="fa fa-plus"></i> Create New Label</a>
+                        </li>
+                    </ul>
+
+                    <div id="mailbox-wrapper">
+
+                        <div class="well">
+
+
+                                    <div class="message-content">
+                                        <div class="message-header clearfix">
+                                            <div class="pull-left">
+
+                                                <div class="space-4"></div>
+
+                                                <i class="icon-star orange2 mark-star"></i>
+
+                                                &nbsp;
+                                                <img class="middle" alt="John's Avatar" src="assets/avatars/avatar.png" width="32">
+                                                &nbsp;
+                                                <a href="#" class="sender">John Doe</a>
+
+                                                &nbsp;
+                                                <i class="icon-time bigger-110 orange middle"></i>
+                                                <span class="time">Today, 7:15 pm</span>
+                                            </div>
+
+                                            <div class="action-buttons pull-right">
+                                                <a href="#">
+                                                    <i class="icon-reply green icon-only bigger-130"></i>
+                                                </a>
+
+                                                <a href="#">
+                                                    <i class="icon-mail-forward blue icon-only bigger-130"></i>
+                                                </a>
+
+                                                <a href="#">
+                                                    <i class="icon-trash red icon-only bigger-130"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+
+                                        <div class="hr hr-double"></div>
+
+                                        <div class="slimScrollDiv" style="position: relative; overflow: hidden; width: auto; height: 200px;"><div class="message-body" style="overflow: hidden; width: auto; height: 200px;">
+                                            <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                            </p>
+
+                                            <p>
+                                                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                            </p>
+
+                                            <p>
+                                                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                                            </p>
+
+                                            <p>
+                                                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                            </p>
+
+                                            <p>
+                                                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                                            </p>
+
+                                            <p>
+                                                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                            </p>
+                                        </div><div class="slimScrollBar ui-draggable" style="background-color: rgb(0, 0, 0); width: 7px; position: absolute; top: 0px; opacity: 0.4; display: none; border-top-left-radius: 7px; border-top-right-radius: 7px; border-bottom-right-radius: 7px; border-bottom-left-radius: 7px; z-index: 99; right: 1px; height: 200px;"></div><div class="slimScrollRail" style="width: 7px; height: 100%; position: absolute; top: 0px; display: none; border-top-left-radius: 7px; border-top-right-radius: 7px; border-bottom-right-radius: 7px; border-bottom-left-radius: 7px; background-color: rgb(51, 51, 51); opacity: 0.2; z-index: 90; right: 1px; background-position: initial initial; background-repeat: initial initial;"></div></div>
+
+                                        <div class="hr hr-double"></div>
+
+                                        <div class="message-attachment clearfix">
+                                            <div class="attachment-title">
+                                                <span class="blue bolder bigger-110">Attachments</span>
+                                                &nbsp;
+                                                <span class="grey">(2 files, 4.5 MB)</span>
+
+                                                <div class="inline position-relative">
+                                                    <a href="#" data-toggle="dropdown" class="dropdown-toggle">
+                                                        &nbsp;
+                                                        <i class="icon-caret-down bigger-125 middle"></i>
+                                                    </a>
+
+                                                    <ul class="dropdown-menu dropdown-lighter">
+                                                        <li>
+                                                            <a href="#">Download all as zip</a>
+                                                        </li>
+
+                                                        <li>
+                                                            <a href="#">Display in slideshow</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+
+                                            &nbsp;
+                                            <ul class="attachment-list pull-left list-unstyled">
+                                                <li>
+                                                    <a href="#" class="attached-file inline">
+                                                        <i class="icon-file-alt bigger-110 middle"></i>
+                                                        <span class="attached-name middle">Document1.pdf</span>
+                                                    </a>
+
+                                                    <div class="action-buttons inline">
+                                                        <a href="#">
+                                                            <i class="icon-download-alt bigger-125 blue"></i>
+                                                        </a>
+
+                                                        <a href="#">
+                                                            <i class="icon-trash bigger-125 red"></i>
+                                                        </a>
+                                                    </div>
+                                                </li>
+
+                                                <li>
+                                                    <a href="#" class="attached-file inline">
+                                                        <i class="icon-film bigger-110 middle"></i>
+                                                        <span class="attached-name middle">Sample.mp4</span>
+                                                    </a>
+
+                                                    <div class="action-buttons inline">
+                                                        <a href="#">
+                                                            <i class="icon-download-alt bigger-125 blue"></i>
+                                                        </a>
+
+                                                        <a href="#">
+                                                            <i class="icon-trash bigger-125 red"></i>
+                                                        </a>
+                                                    </div>
+                                                </li>
+                                            </ul>
+
+                                            <div class="attachment-images pull-right">
+                                                <div class="vspace-sm-4"></div>
+
+                                                <div>
+                                                    <img width="36" alt="image 4" src="assets/images/gallery/thumb-4.jpg">
+                                                    <img width="36" alt="image 3" src="assets/images/gallery/thumb-3.jpg">
+                                                    <img width="36" alt="image 2" src="assets/images/gallery/thumb-2.jpg">
+                                                    <img width="36" alt="image 1" src="assets/images/gallery/thumb-1.jpg">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+
+
+                        </div>
+
+                        <ul class="list-inline pull-right">
+                            <li><strong>1-10 of 1,392</strong>
+                            </li>
+                            <li>
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-white"><i class="fa fa-chevron-left"></i>
+                                    </button>
+                                    <button type="button" class="btn btn-white"><i class="fa fa-chevron-right"></i>
+                                    </button>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- /.col-lg-12 -->
+</div>
+<!-- /.row -->

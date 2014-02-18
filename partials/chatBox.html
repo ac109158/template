@@ -1,0 +1,147 @@
+<style>
+p {
+    font-size: 10pt;
+}
+textarea {
+    margin:2px auto;
+    font-size: 8pt;
+    padding:2px;
+    max-width:100%;
+}
+</style>
+<!-- begin PAGE TITLE ROW -->
+<div class="row">
+    <div class="col-lg-12">
+        <div class="page-title">
+            <h1>
+                Chat
+                <small>Conversation Widget</small>
+            </h1>
+            <ol class="breadcrumb">
+                <li><i class="fa fa-dashboard"></i>  <a href="index.html">Dashboard</a>
+                </li>
+                <li class="active">Chat</li>
+            </ol>
+        </div>
+    </div>
+    <!-- /.col-lg-12 -->
+</div>
+<!-- /.row -->
+<!-- end PAGE TITLE ROW -->
+
+<div class="row" style="max-height:300px;">
+    <div class="col-lg-3 ">
+        <div class="portlet portlet-default">
+            
+            <div id="chat" class="" style="margin-bottom:2px;">
+                <div class="portlet-body chat-widget">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <p class="text-center text-muted small">January 1, 2014 at 12:23 PM</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="media">
+                                <h4 class="media-heading">
+                                        <span class="small pull-left">12:23 PM</span>
+                                       <span style="position:relative; left:40px;"> Jane Smith</span>
+                                    </h4>
+                                <a class="pull-left" href="#">
+                                    <img class="media-object img-circle" src="img/user-profile-1.jpg" alt="">
+                                </a>
+                                <div class="media-body">
+                                    <p>Hi, I wanted to make sure you got the latest product report. Did Roddy get it to you?</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="media">
+                                <h4 class="media-heading">John Smith
+                                        <span class="small pull-right">12:28 PM</span>
+                                    </h4>
+                                <a class="pull-right" href="#">
+                                    <img class="media-object img-circle" src="img/profile-pic-small.jpg" alt="">
+                                </a>
+                                <div class="media-body">
+                                    <p>Yeah I did. Everything looks good.</p>
+                                    <p>Did you have an update on purchase order #302?</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="media">
+                                <div class="row">
+                                    <a class="pull-left" href="#">
+                                        <img class="media-object img-circle" src="img/user-profile-1.jpg" alt="">
+                                    </a>
+                                    <h4 class="media-heading">Jane Smith
+                                        <span class="small pull-right">12:39 PM</span>
+                                    </h4>
+                                </div>
+                                <div class="media-body">                                    
+                                    <p>No not yet, the transaction hasn't cleared yet. I will let you know as soon as everything goes through. Any idea where you want to get lunch today?</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                </div>
+
+                <div>
+                            <textarea class="chat-text form-control" placeholder="Enter message..."></textarea>
+                        <!-- <div class="form-group">
+                            <button type="submit" class="btn btn-default pull-right">Send</button>
+                            <div class="clearfix"></div>
+                        </div> -->
+                </div>
+            </div>
+            <div class="portlet-heading">
+                <div class="portlet-title">
+                    <h4><i class="fa fa-circle text-green"></i> Jane Smith</h4>
+                </div>
+                <div class="portlet-widgets">
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-group dropup btn-white btn-xs" data-toggle="dropdown">
+                            <i class="fa fa-circle text-green"></i> Status
+                            <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="#"><i class="fa fa-circle text-green"></i> Online</a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-circle text-orange"></i> Away</a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-circle text-red"></i> Offline</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <span class="divider"></span>
+                    <a data-toggle="" data-parent="#accordion" href="#chat"><i class="fa fa-chevron-down"></i></a>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+
+    </div>
+    <!-- /.col-lg-4 -->
+</div>
+<!-- /.row -->
+
+<!-- PAGE LEVEL PLUGIN SCRIPTS -->
+ <script>
+    $(function() {
+        $('.chat-widget').slimScroll({
+            start: 'bottom',
+            height: '300px',
+            alwaysVisible: true,
+            disableFadeOut: true,
+            touchScrollStep: 50
+        });
+    });
+ </script>
