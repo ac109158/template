@@ -1,4 +1,8 @@
 require([
+    "js/vendor/jquery/jquery.min.js",
+    "js/plugins/bootstrap/bootstrap.min.js",
+    "js/plugins/popupoverlay/logout.js",
+    "js/plugins/popupoverlay/jquery.popupoverlay.js",
     "js/plugins/bootstrap-datepicker/bootstrap-datepicker.js",
     "js/plugins/bootstrap-maxlength/bootstrap-maxlength.js",
     "js/plugins/bootstrap-multiselect/bootstrap-multiselect.js",
@@ -21,7 +25,6 @@ require([
     "js/plugins/jvectormap/jquery-jvectormap-1.2.2.min.js",
     "js/plugins/jvectormap/maps/jquery-jvectormap-world-mill-en.js",
     "js/plugins/ladda/spin.min.js",
-    "js/plugins/ladda/spin.js",
     "js/plugins/ladda/ladda.min.js",
     "js/plugins/messenger/messenger.min.js",
     "js/plugins/messenger/messenger-theme-flat.js",
@@ -39,7 +42,7 @@ require([
     "js/demo/map-demo-data.js",
     "js/demo/advanced-form-demo.js",
     "js/demo/mailbox-demo.js"
-], function(file, file2, file3, file4, file5, file6, file7, file8, file9, file10, file11, file12, file13, file14, file15, file16, file17, file18, file19, file20, file21, file22, file23, file24, file25, file26, file27, file28, file29, file30, file31, file32, file33, file34, file35, file36, file37, file38, file39, file40) {
+], function(file, file2, file3, file4, file5, file6, file7, file8, file9, file10, file11, file12, file13, file14, file15, file16, file17, file18, file19, file20, file21, file22, file23, file24, file25, file26, file27, file28, file29, file30, file31, file32, file33, file34, file35, file36, file37, file38, file39, file40, file41, file42) {
     //This function is called when scripts/helper/util.js is loaded.
     //If util.js calls define(), then this function is not fired until
     //util's dependencies have loaded, and the util argument will hold
