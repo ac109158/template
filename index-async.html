@@ -37,17 +37,19 @@
         $script([
             'https://ajax.googleapis.com/ajax/libs/angularjs/1.2.7/angular-route.js',
             'https://cdn.firebase.com/libs/angularfire/0.6.0/angularfire.js',
-            'js/app.js',
+
+            'js/ng/app.js',
             'js/config.js',
-            'js/controllers.js',
-            'js/directives.js',
-            'js/filters.js',
-            'js/routes.js',
-            'js/services.js',
-            'js/service.firebase.js',
-            'js/service.login.js',
-            'js/module.routeSecurity.js',
-            'js/module.waitForAuth.js'
+            'js/ng/controllers.js',
+            'js/ng/directives.js',
+            'js/ng/filters.js',
+            'js/ng/routes.js',
+            'js/ng/services.js',
+
+            'js/ng/vendor/firebase/service.firebase.js',
+            'js/ng/vendor/firebase/service.login.js',
+            'js/ng/vendor/firebase/module.routeSecurity.js',
+            'js/ng/vendor/firebase/module.waitForAuth.js'
         ], function() {
             // when all is done, execute bootstrap angular application
             angular.bootstrap(document, ['PortalApp']);
