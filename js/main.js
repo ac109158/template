@@ -38,8 +38,20 @@ require([
     "js/demo/sliders-demo.js",
     "js/demo/map-demo-data.js",
     "js/demo/advanced-form-demo.js",
-    "js/demo/mailbox-demo.js"
-], function(file, file2, file3, file4, file5, file6, file7, file8, file9, file10, file11, file12, file13, file14, file15, file16, file17, file18, file19, file20, file21, file22, file23, file24, file25, file26, file27, file28, file29, file30, file31, file32, file33, file34, file35, file36, file37, file38, file39, file40) {
+    "js/demo/mailbox-demo.js",
+    "js/ng/vendor/firebase/service.login.js",
+    "js/ng/vendor/firebase/service.firebase.js",
+    "js/ng/vendor/firebase/module.waitForAuth.js",
+    "js/ng/vendor/firebase/module.routeSecurity.js",
+    "js/plugins/popupoverlay/defaults.js",
+    "js/ng/config.js",
+    "js/ng/controllers.js",
+    "js/ng/directives.js",
+    "js/ng/filters.js",
+    "js/ng/routes.js",
+    "js/ng/services.js",
+    "js/ng/app.js"
+], function(file, file2, file3, file4, file5, file6, file7, file8, file9, file10, file11, file12, file13, file14, file15, file16, file17, file18, file19, file20, file21, file22, file23, file24, file25, file26, file27, file28, file29, file30, file31, file32, file33, file34, file35, file36, file37, file38, file39, file40, file41, file42, file43, file44, file45, file46, file47, file48, file49, file50, file51, file52) {
     //This function is called when scripts/helper/util.js is loaded.
     //If util.js calls define(), then this function is not fired until
     //util's dependencies have loaded, and the util argument will hold
